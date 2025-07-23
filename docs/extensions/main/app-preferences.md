@@ -1,4 +1,4 @@
-# appPreferences
+# App preferences
 
 ## What is appPreferences?
 App preferences allow you to add new menu entries to the global settings page.
@@ -14,7 +14,9 @@ You will see the new component here
   ![openClusterSettings](images/app-preferences/app-preferences.png)
 </figure>
 
-## Example
+# How to use it
+## Interface
+
 This is the appPreferences interface
 ```javascript
 appPreferences: AppPreferenceRegistration[] = [];
@@ -30,6 +32,7 @@ interface AppPreferenceRegistration {
 }
 ```
 
+## Hands on
 To add a new setting menu entry in cluster settings just add this code of block to your `renderer/index.tsx` file
 
 ```javascript linenums="1"

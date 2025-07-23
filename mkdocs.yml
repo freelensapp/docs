@@ -35,10 +35,15 @@ theme:
         name: Switch to system preference
 nav:
   - index.md
-  - extensions:
-      - api:
-        - extensions/api/app-preferences.md
-        - extensions/api/entity-settings.md
+  - extensions Development:
+#      - Getting Started:
+#          - extensions/creating-an-extension.md
+      - API:
+          - LensRendererExtension Class:
+              - Overview: extensions/main/lens-renderer-extension-class.md
+              - App Preferences: extensions/main/app-preferences.md
+              - Entity Settings: extensions/main/entity-settings.md
+              - KubeObject Detail Items: extensions/main/kube-object-detail-items.md
 plugins:
   - blog
   - search

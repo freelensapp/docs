@@ -1,4 +1,4 @@
-# entitySettings
+# Entity settings
 
 ## What is entitySettings?
 entitySettings allow you to add new menu entries inside the cluster settings page.
@@ -13,7 +13,8 @@ You will see the new component here
   ![openClusterSettings](images/entity-settings/cluster-settings.png)
 </figure>
 
-## Example
+# How to use it
+## Interface
 This is the entitySettings interface
 ```javascript
 entitySettings: EntitySettingRegistration[] = [];
@@ -33,6 +34,7 @@ interface EntitySettingRegistration {
 }
 ```
 
+## Hands on
 To add a new setting menu entry in cluster settings just add this code of block to your `renderer/index.tsx` file
 
 ```javascript linenums="1"
