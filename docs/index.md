@@ -1,4 +1,4 @@
-# Welcome to Freelens doc
+# Welcome to Freelens docs
 
 Freelens is an open-source Kubernetes IDE designed to make it easier for developers and operators to work with Kubernetes clusters.
 
