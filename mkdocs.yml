@@ -44,6 +44,7 @@ nav:
               - App Preferences: extensions/main/app-preferences.md
               - Entity Settings: extensions/main/entity-settings.md
               - KubeObject Detail Items: extensions/main/kube-object-detail-items.md
+          - Catalog API: extensions/main/catalog-api.md
 plugins:
   - blog
   - search
