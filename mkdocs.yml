@@ -45,6 +45,7 @@ nav:
               - Entity Settings: extensions/main/entity-settings.md
               - KubeObject Detail Items: extensions/main/kube-object-detail-items.md
           - Catalog API: extensions/main/catalog-api.md
+          - K8s API: extensions/main/k8s-api.md
 plugins:
   - blog
   - search
