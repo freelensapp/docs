@@ -59,11 +59,25 @@ The main process API provides:
 
 ## Types
 
+### ClusterId
+
+A type alias for cluster identifiers. Use this with the [K8s API](./k8s-api.md) to perform operations on clusters:
+
+```typescript
+import { Catalog, K8s, ClusterId } from "@freelensapp/core/renderer";
+
+const cluster = Catalog.getActiveCluster();
+const clusterId: ClusterId = cluster.id;
+
+// Use with K8s API
+const pods = await K8s.queryCluster(clusterId, { apiVersion: "v1", kind: "Pod" });
+```
+
 ### ClusterInfo
 
 ```typescript
 interface ClusterInfo {
-  readonly id: string;
+  readonly id: ClusterId;  // Use with K8s API
   readonly name: string;
   readonly kubeConfigPath: string;
   readonly contextName: string;
