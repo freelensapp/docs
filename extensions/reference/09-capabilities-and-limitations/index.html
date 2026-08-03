@@ -1,0 +1,1571 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://github.com/freelensapp/freelens/extensions/reference/09-capabilities-and-limitations/">
+      
+      
+        <link rel="prev" href="../08-catalog-navigation-theme/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Capabilities and limitations - Freelens docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#9-capabilities-and-limitations" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Freelens docs" class="md-header__button md-logo" aria-label="Freelens docs" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Freelens docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Capabilities and limitations
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/freelensapp/freelens" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    freelensapp/freelens
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Freelens docs" class="md-nav__button md-logo" aria-label="Freelens docs" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    Freelens docs
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/freelensapp/freelens" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    freelensapp/freelens
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Welcome to Freelens docs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    extensions Development
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    extensions Development
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    API
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1_1" id="__nav_2_1_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LensRendererExtension Class
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    LensRendererExtension Class
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../main/lens-renderer-extension-class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../main/app-preferences/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    App Preferences
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../main/entity-settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entity Settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../main/kube-object-detail-items/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    KubeObject Detail Items
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../main/catalog-api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Catalog API
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../main/k8s-api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    K8s API
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Extension reference
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Extension reference
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-extension-classes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Extension classes and lifecycle
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-renderer-registrations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Renderer registrations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-main-registrations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Main registrations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-ui-components/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UI components
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-kubernetes-api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes API
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-persistence-and-ipc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Persistence and IPC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-catalog-navigation-theme/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Catalog, navigation, theme
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capabilities and limitations
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capabilities and limitations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#91-what-you-can-do" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.1 What you CAN do
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9.1 What you CAN do">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#add-ui-renderer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Add UI (renderer)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#work-with-kubernetes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Work with Kubernetes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#os-app-integration-main" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OS / app integration (main)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#state-catalog-and-infrastructure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        State, catalog, and infrastructure
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#92-what-you-cannot-do-or-must-not-rely-on" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.2 What you CANNOT do (or must not rely on)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9.2 What you CANNOT do (or must not rely on)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#registration-surface-limits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registration surface limits
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#process-boundaries" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Process boundaries
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-kubeobject-runtime-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The KubeObject runtime model
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#build-packaging-constraints" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Build / packaging constraints
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ipc-caveats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IPC caveats
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statestore-constraints" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        State/store constraints
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#93-rules-of-thumb" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.3 Rules of thumb
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#91-what-you-can-do" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.1 What you CAN do
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9.1 What you CAN do">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#add-ui-renderer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Add UI (renderer)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#work-with-kubernetes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Work with Kubernetes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#os-app-integration-main" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OS / app integration (main)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#state-catalog-and-infrastructure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        State, catalog, and infrastructure
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#92-what-you-cannot-do-or-must-not-rely-on" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.2 What you CANNOT do (or must not rely on)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9.2 What you CANNOT do (or must not rely on)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#registration-surface-limits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registration surface limits
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#process-boundaries" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Process boundaries
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-kubeobject-runtime-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The KubeObject runtime model
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#build-packaging-constraints" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Build / packaging constraints
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ipc-caveats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IPC caveats
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statestore-constraints" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        State/store constraints
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#93-rules-of-thumb" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.3 Rules of thumb
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<!--
+Copyright (c) Freelens Authors. All rights reserved.
+Licensed under MIT License. See LICENSE in root directory for more information.
+-->
+
+<h1 id="9-capabilities-and-limitations">9. Capabilities and limitations</h1>
+<p>The direct answer to <em>"what can I do, and what can I not do, from an
+extension?"</em></p>
+<h2 id="91-what-you-can-do">9.1 What you CAN do</h2>
+<h3 id="add-ui-renderer">Add UI (renderer)</h3>
+<ul>
+<li><strong>Pages</strong>: full pages inside a cluster (<code>clusterPages</code>) or in the root frame
+  (<code>globalPages</code>), each with its own URL and params.</li>
+<li><strong>Sidebar entries</strong>: cluster sidebar items and nested sub-items
+  (<code>clusterPageMenus</code>).</li>
+<li><strong>Top bar items</strong> (<code>topBarItems</code>) and <strong>status bar items</strong> (<code>statusBarItems</code>).</li>
+<li><strong>Kube object detail panels</strong> for any <code>kind</code>/<code>apiVersions</code>
+  (<code>kubeObjectDetailItems</code>).</li>
+<li><strong>Kube object menu actions</strong> and dynamic context-menu items
+  (<code>kubeObjectMenuItems</code>, <code>kubeObjectHandlers</code>).</li>
+<li><strong>Workloads Overview sections</strong> (<code>kubeWorkloadsOverviewItems</code>).</li>
+<li><strong>Preferences</strong>: preference control blocks and whole new preference tabs
+  (<code>appPreferences</code>, <code>appPreferenceTabs</code>).</li>
+<li><strong>Entity settings panes</strong> (<code>entitySettings</code>).</li>
+<li><strong>Catalog UI</strong>: extra columns and replacement views for catalog categories
+  (<code>additionalCategoryColumns</code>, <code>customCategoryViews</code>), and catalog-entity
+  detail panels (<code>catalogEntityDetailItems</code>).</li>
+<li><strong>Command-palette commands</strong> (<code>commands</code>) and <strong>Welcome-page actions</strong>
+  (<code>welcomeMenus</code>).</li>
+<li><strong>Always-mounted overlays</strong> in the cluster frame (<code>clusterFrameComponents</code>).</li>
+<li>Use the full <strong>shared React component library</strong> (<code>Renderer.Component</code>):
+  layouts, tables, forms, dialogs, notifications, charts, drawers, the Monaco
+  editor, icons, and the ready-made <code>KubeObjectListLayout</code>.</li>
+</ul>
+<h3 id="work-with-kubernetes">Work with Kubernetes</h3>
+<ul>
+<li><strong>Model custom resources (CRDs)</strong> with the <code>KubeObject</code> / <code>KubeApi</code> /
+  <code>KubeObjectStore</code> three-class pattern, including multiple API versions.</li>
+<li><strong>Read/watch resources</strong> through built-in and custom stores (reactive via
+  MobX).</li>
+<li><strong>CRUD against any cluster</strong> with the <code>K8s</code> functions: <code>queryCluster</code>,
+  <code>queryClusters</code>, <code>queryAllClusters</code>, <code>getResource</code>, <code>applyOnCluster</code>,
+  <code>deleteOnCluster</code>, <code>patchOnCluster</code> — from the renderer (over IPC) or the
+  main process (direct).</li>
+<li><strong>Request metrics</strong> and render them with the chart/metrics components.</li>
+<li><strong>Drive dock tabs</strong>: open terminals (<code>createTerminalTab</code>, <code>terminalStore</code>)
+  and log tabs (<code>logTabStore</code>).</li>
+</ul>
+<h3 id="os-app-integration-main">OS / app integration (main)</h3>
+<ul>
+<li>Add <strong>application menu</strong> items (<code>appMenus</code>) and <strong>system-tray</strong> items
+  (<code>trayMenus</code>).</li>
+<li><strong>Modify terminal shell environment</strong> (<code>terminalShellEnvModifier</code>).</li>
+<li>Hook <strong>power/lifecycle events</strong> (<code>Main.Power</code>: suspend/resume/shutdown).</li>
+<li>Handle <strong><code>freelens://</code> deep links</strong> (<code>protocolHandlers</code>).</li>
+</ul>
+<h3 id="state-catalog-and-infrastructure">State, catalog, and infrastructure</h3>
+<ul>
+<li><strong>Persist data</strong> with <code>Common.Store.ExtensionStore</code> — auto-synced across
+  processes, MobX-reactive.</li>
+<li><strong>Publish catalog entities</strong> and <strong>define catalog categories/entity kinds</strong>
+  (<code>addCatalogSource</code>, <code>Common.Catalog</code> base classes).</li>
+<li><strong>Read the catalog</strong> and the active cluster (<code>Renderer.Catalog</code>).</li>
+<li><strong>Communicate main ↔ renderer</strong> via per-extension IPC (<code>Main.Ipc</code> /
+  <code>Renderer.Ipc</code>) or raw Electron IPC.</li>
+<li><strong>Navigate</strong> the app (<code>Renderer.Navigation</code>).</li>
+<li><strong>React to the active theme</strong> (<code>Renderer.Theme.activeTheme</code>).</li>
+<li><strong>Read app info</strong> (<code>Common.App</code>), <strong>log</strong> (<code>Common.logger</code>), use the
+  <strong>event bus</strong> (<code>Common.EventBus</code>), resolve the <strong>system proxy</strong>
+  (<code>Common.Proxy</code>), and use bundled <strong>utilities</strong> (<code>Common.Util</code>).</li>
+<li><strong>Enable/disable per cluster</strong> with <code>isEnabledForCluster(cluster)</code> (now
+  <code>@deprecated</code> — prefer per-registration <code>enabled</code>/<code>visible</code> + <code>activeCluster</code>).</li>
+<li>Write to a <strong>per-extension file folder</strong> (<code>getExtensionFileFolder()</code>).</li>
+</ul>
+<h2 id="92-what-you-cannot-do-or-must-not-rely-on">9.2 What you CANNOT do (or must not rely on)</h2>
+<h3 id="registration-surface-limits">Registration surface limits</h3>
+<ul>
+<li><strong>No arbitrary UI injection.</strong> You can only render where a registration
+  extension point exists (the lists in <a href="../03-renderer-registrations/">chapter 3</a>).
+  There is no generic "inject a component at CSS selector X" API.</li>
+<li><strong><code>kubeObjectStatusTexts</code> and <code>kubeObjectListLayoutColumns</code> do not exist</strong> in
+  this Freelens version. To customize a resource list, render your own
+  <code>KubeObjectListLayout</code> inside a <code>clusterPage</code> instead.</li>
+<li><strong>No standalone <code>getActiveTheme()</code></strong> — read <code>Renderer.Theme.activeTheme.get()</code>.</li>
+</ul>
+<h3 id="process-boundaries">Process boundaries</h3>
+<ul>
+<li><strong><code>Main</code> is <code>undefined</code> in the renderer, and <code>Renderer</code> is <code>undefined</code> in the
+  main process.</strong> Only touch the namespace for the process you're running in.
+  Cross-process work goes through IPC or an <code>ExtensionStore</code>.</li>
+<li><strong>The main process has no active cluster.</strong> <code>ClusterInfo.isActive</code> is always
+  <code>false</code> there; active-cluster APIs are renderer-only.</li>
+</ul>
+<h3 id="the-kubeobject-runtime-model">The KubeObject runtime model</h3>
+<ul>
+<li><strong>No instance methods on <code>KubeObject</code> subclasses.</strong> The host hands your
+  components plain object copies, not class instances. Instance methods you
+  define will not exist at runtime. Use <code>static</code> helpers that take the object
+  as a parameter, direct <code>spec</code>/<code>status</code> access, or host base-class methods
+  (<code>getName()</code>, <code>getNs()</code>, <code>getCreationTimestamp()</code>, <code>getSearchFields()</code>).</li>
+<li><strong>Don't <code>as any</code> around this</strong> — the typed <code>Spec</code>/<code>Status</code> interfaces exist;
+  use them.</li>
+</ul>
+<h3 id="build-packaging-constraints">Build / packaging constraints</h3>
+<ul>
+<li><strong>Do not bundle host-provided globals</strong> (<code>@freelensapp/extensions</code>, <code>react</code>,
+  <code>react-dom</code>, <code>react/jsx-runtime</code>, <code>mobx</code>, <code>mobx-react</code>, <code>react-router-dom</code>).
+  Bundling them yields duplicate React/MobX and broken hooks/observables.
+  Externalize them to <code>global.*</code> (the <code>globalExternals</code> shim).</li>
+<li><strong>You are locked to the host's React 17 and MobX 6</strong> for anything that
+  crosses the UI boundary.</li>
+<li><strong>Output must be CommonJS</strong> for Freelens 1.x hosts.</li>
+<li><strong>Compatibility is gated</strong> by <code>engines.freelens</code> (MAJOR.MINOR, coerced to
+  <code>^MAJOR.MINOR</code>). An extension outside the range is marked incompatible by the
+  host. This is the <strong>only</strong> version negotiation — there is <strong>no</strong>
+  inter-extension dependency mechanism or extension-to-extension API-version
+  contract. You cannot declare "requires extension X"; each extension is
+  independent.</li>
+<li><strong>The host pnpm-installs your <code>dependencies</code> at install time</strong> and loads from
+  a <code>.tgz</code> (production) or the extension folder. Keep host globals in
+  <code>devDependencies</code>; everything else is either bundled by your build or
+  pnpm-installed. See
+  <a href="../01-getting-started/#17-how-the-host-installs-and-discovers-your-extension">Getting started §1.7</a>.</li>
+</ul>
+<h3 id="ipc-caveats">IPC caveats</h3>
+<ul>
+<li>The published <code>Main.Ipc</code> / <code>Renderer.Ipc</code> are <strong>abstract classes with no
+  concrete instance accessor</strong>, so the intended <code>Class.method(...)</code> usage does
+  not typecheck cleanly; you may have to fall back to raw Electron IPC (with a
+  self-chosen channel prefix and manual cleanup). See
+  <a href="../07-persistence-and-ipc/#the-typecheck-gotcha-important">Persistence and IPC</a>.</li>
+<li>IPC payloads are <strong>sanitized (<code>toJS</code>)</strong> — send plain data, not live
+  observables or class instances.</li>
+</ul>
+<h3 id="statestore-constraints">State/store constraints</h3>
+<ul>
+<li><code>ExtensionStore.fromStore</code> / <code>toJSON</code> <strong>must be synchronous</strong>.</li>
+<li>A store subclass is a <strong>singleton</strong> — create it via the static
+  <code>createInstance</code> / <code>getInstanceOrCreate</code>, and call <code>loadExtension(this)</code>
+  once from <code>onActivate</code> to start syncing.</li>
+</ul>
+<h2 id="93-rules-of-thumb">9.3 Rules of thumb</h2>
+<ul>
+<li><strong>Register, don't inject.</strong> Find the right extension point; if none exists,
+  the capability isn't exposed.</li>
+<li><strong>Right process, right namespace.</strong> <code>Renderer</code> for UI, <code>Main</code> for
+  OS/app/direct-k8s, <code>Common</code> for shared state and info.</li>
+<li><strong>Static + data over instances.</strong> For KubeObjects, never rely on instance
+  methods; the runtime only has the data.</li>
+<li><strong>Externalize the host globals; bundle everything else.</strong></li>
+<li><strong>Persist through <code>ExtensionStore</code>; cross processes through IPC or the store.</strong></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "content.code.copy", "content.code.select"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
