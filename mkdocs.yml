@@ -46,6 +46,17 @@ nav:
               - KubeObject Detail Items: extensions/main/kube-object-detail-items.md
           - Catalog API: extensions/main/catalog-api.md
           - K8s API: extensions/main/k8s-api.md
+      - Extension reference:
+          - Overview: extensions/reference/index.md
+          - Getting started: extensions/reference/01-getting-started.md
+          - Extension classes and lifecycle: extensions/reference/02-extension-classes.md
+          - Renderer registrations: extensions/reference/03-renderer-registrations.md
+          - Main registrations: extensions/reference/04-main-registrations.md
+          - UI components: extensions/reference/05-ui-components.md
+          - Kubernetes API: extensions/reference/06-kubernetes-api.md
+          - Persistence and IPC: extensions/reference/07-persistence-and-ipc.md
+          - Catalog, navigation, theme: extensions/reference/08-catalog-navigation-theme.md
+          - Capabilities and limitations: extensions/reference/09-capabilities-and-limitations.md
 plugins:
   - blog
   - search
